@@ -1043,18 +1043,27 @@ no(){
   this.butiks.nativeElement.style.pointerEvents='none';
 
 }
-  ngAfterViewInit() {
-
-    if(this.tr1==true){
-      
-    }
-    if(this.tr2==true){
-
-    }
-    if(this.tr3==true){
-      this.Create.nativeElement.style.display='flex';
-    }
+ngAfterViewInit() {
+  this.checkOrientation();
+  window.addEventListener('resize', () => this.checkOrientation());
+  if (screen.orientation) {
+    screen.orientation.addEventListener('change', () => this.checkOrientation());
   }
+}
+
+checkOrientation() {
+  if (window.innerHeight <= window.innerWidth) {
+    this.Playground.nativeElement.style.display = 'flex';
+    this.container.nativeElement.style.backgroundColor='#e5e4e4';
+    this.container.nativeElement.textContent='';
+  } else {
+    this.Playground.nativeElement.style.display = 'none';
+    this.container.nativeElement.style.backgroundColor='black';
+    this.container.nativeElement.textContent='Please rotate your device!';
+    this.container.nativeElement.style.color='white';
+  }
+}
+
   ngAfterViewChecked() {
     this.cdRef.detectChanges();
   }
