@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1770517987126,
+  "timestamp": 1770519294240,
   "index": "/Bura/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/Bura/favicon.ico",
         "/Bura/index.html",
-        "/Bura/main-BY4Y7IRN.js",
+        "/Bura/main-WO2DPOP5.js",
         "/Bura/manifest.webmanifest",
         "/Bura/polyfills-5CFQRCPP.js",
         "/Bura/styles-5INURTSO.css"
@@ -165,8 +165,8 @@
     "/Bura/icons/poker (3).png": "a07a11f343242542bea358a20e416de78de17838",
     "/Bura/icons/poker (4).png": "1ca4b09fa3d95b1e8ecc8eeabbcd7bfb10b1f44e",
     "/Bura/icons/poker (5).png": "e2a06378e568182e2e7828aeecc8caf40edc3c03",
-    "/Bura/index.html": "977ec7df69b451e2521205ffe6a3277b6bb26d92",
-    "/Bura/main-BY4Y7IRN.js": "3ec8571f50be472adca0e8b82feafe1408d80aa6",
+    "/Bura/index.html": "a79a69a06aab2c857bfc009a3131ea6d5ff390e9",
+    "/Bura/main-WO2DPOP5.js": "5e03ff34b674a3894da35f09dac90d0d18d32530",
     "/Bura/manifest.webmanifest": "ce5dc011205b65840623aa50e0115f26456c50d5",
     "/Bura/media/B-MYREEMMG.png": "8b038e678a1b43494bbd31e253f461a2d70d026f",
     "/Bura/media/account-5S6ZFD3M.png": "5f31ce6d5f4264f806a0bd98eeda51acd07462f3",
