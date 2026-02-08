@@ -247,6 +247,7 @@ pointX=1;
   @ViewChild('p22') p22!: ElementRef<HTMLParagraphElement>
   @ViewChild('sadeve1') sadeve1!: ElementRef<HTMLParagraphElement>
   @ViewChild('sadeve2') sadeve2!: ElementRef<HTMLParagraphElement>
+  @ViewChild('udri') udri!: ElementRef<HTMLParagraphElement>
 
   ngOnInit() {
 
@@ -1053,14 +1054,15 @@ ngAfterViewInit() {
 
 checkOrientation() {
   if (window.innerHeight <= window.innerWidth) {
-    this.Playground.nativeElement.style.display = 'flex';
-    this.container.nativeElement.style.backgroundColor='#e5e4e4';
-    this.container.nativeElement.textContent='';
+this.container.nativeElement.style.display='flex';
+    document.body.style.backgroundColor='transparent';
   } else {
-    this.Playground.nativeElement.style.display = 'none';
-    this.container.nativeElement.style.backgroundColor='black';
-    this.container.nativeElement.textContent='Please rotate your device!';
-    this.container.nativeElement.style.color='white';
+    this.container.nativeElement.style.display = 'none';
+    document.body.style.backgroundColor='black';
+    this.udri.nativeElement.textContent='Please rotate your device!';
+    this.udri.nativeElement.style.display='flex';
+    this.udri.nativeElement.style.color='white';
+
   }
 }
 
