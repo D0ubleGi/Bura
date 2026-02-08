@@ -345,14 +345,14 @@ pointX=1;
     this.socket.onLoadroom((info)=>{
 
       if(info.Player1){
-        this.Player11.nativeElement.style.backgroundImage = `url('/assets/images/account.png')`;
+        this.Player11.nativeElement.style.backgroundImage = `url('assets/images/account.png')`;
         this.Player11.nativeElement.style.border = '2px solid black';
         this.Player11.nativeElement.style.backgroundSize = 'cover';
         this.name1.nativeElement.textContent=info.Player1;
         this.name1.nativeElement.style.display='flex';
       }
       else{
-        this.Player11.nativeElement.style.backgroundImage = `url('/assets/images/B.png')`;
+        this.Player11.nativeElement.style.backgroundImage = `url('assets/images/B.png')`;
         this.Player11.nativeElement.style.border = '2px solid rgb(1, 72, 1)';
         this.Player11.nativeElement.style.backgroundSize = '190% auto';
         this.name1.nativeElement.textContent='';
@@ -360,42 +360,42 @@ pointX=1;
         
       }
       if(info.Player2){
-        this.Player22.nativeElement.style.backgroundImage = `url('/assets/images/account.png')`;
+        this.Player22.nativeElement.style.backgroundImage = `url('assets/images/account.png')`;
         this.Player22.nativeElement.style.border = '2px solid black';
         this.Player22.nativeElement.style.backgroundSize = 'cover';
         this.name2.nativeElement.textContent=info.Player2;
         this.name2.nativeElement.style.display='flex';
       }
       else{
-        this.Player22.nativeElement.style.backgroundImage = `url('/assets/images/B.png')`;
+        this.Player22.nativeElement.style.backgroundImage = `url('assets/images/B.png')`;
         this.Player22.nativeElement.style.border = '2px solid rgb(1, 72, 1)';
         this.Player22.nativeElement.style.backgroundSize = '190% auto';
         this.name2.nativeElement.textContent='';
         this.name2.nativeElement.style.display='flex';
       }
       if(info.Player3){
-        this.Player33.nativeElement.style.backgroundImage = `url('/assets/images/account.png')`;
+        this.Player33.nativeElement.style.backgroundImage = `url('assets/images/account.png')`;
         this.Player33.nativeElement.style.border = '2px solid black';
         this.Player33.nativeElement.style.backgroundSize = 'cover';
         this.name3.nativeElement.textContent=info.Player3;
         this.name3.nativeElement.style.display='flex';
       }
       else{
-        this.Player33.nativeElement.style.backgroundImage = `url('/assets/images/B.png')`;
+        this.Player33.nativeElement.style.backgroundImage = `url('assets/images/B.png')`;
         this.Player33.nativeElement.style.border = '2px solid rgb(1, 72, 1)';
         this.Player33.nativeElement.style.backgroundSize = '190% auto';
         this.name3.nativeElement.textContent='';
         this.name3.nativeElement.style.display='flex';
       }
       if(info.Player4){
-        this.Player44.nativeElement.style.backgroundImage = `url('/assets/images/account.png')`;
+        this.Player44.nativeElement.style.backgroundImage = `url('assets/images/account.png')`;
         this.Player44.nativeElement.style.border = '2px solid black';
         this.Player44.nativeElement.style.backgroundSize = 'cover';
         this.name4.nativeElement.textContent=info.Player4;
         this.name4.nativeElement.style.display='flex';
       }
       else{
-        this.Player44.nativeElement.style.backgroundImage = `url('/assets/images/B.png')`;
+        this.Player44.nativeElement.style.backgroundImage = `url('assets/images/B.png')`;
         this.Player44.nativeElement.style.border = '2px solid rgb(1, 72, 1)';
         this.Player44.nativeElement.style.backgroundSize = '190% auto';
         this.name4.nativeElement.textContent='';
@@ -508,7 +508,7 @@ this.socket.Start(this.ID ?? id);
 
     this.socket.onsetdeck((player,turn,val)=>{  
       
-      this.krk3.nativeElement.style.backgroundImage=`url(../assets/images/${val})`;
+      this.krk3.nativeElement.style.backgroundImage=`url(assets/images/${val})`;
 
       const a = String(val).split('_');
       const b = a[2].split('.');
@@ -1124,7 +1124,7 @@ no(){
       this.Opt2.nativeElement.style.color='black';
       this.Opt3.nativeElement.style.backgroundColor='rgb(98, 97, 97)';
       this.Opt3.nativeElement.style.color='black';
-      this.img3.nativeElement.style.backgroundImage = `url('/assets/images/padlock.png')`;
+      this.img3.nativeElement.style.backgroundImage = `url('assets/images/padlock.png')`;
     }
     if(target.textContent==='Closed2'){
       this.kutxe2.nativeElement.style.display='flex';
@@ -1136,7 +1136,7 @@ no(){
       this.Opt3.nativeElement.style.color='black';
       this.Opt1.nativeElement.style.backgroundColor='rgb(98, 97, 97)';
       this.Opt1.nativeElement.style.color='black';
-      this.img3.nativeElement.style.backgroundImage = `url('/assets/images/padlock.png')`;
+      this.img3.nativeElement.style.backgroundImage = `url('assets/images/padlock.png')`;
     }
     if(target.textContent==='Room'){
       this.kutxe3.nativeElement.style.display='flex';
@@ -1148,7 +1148,7 @@ no(){
       this.Opt2.nativeElement.style.color='black';
       this.Opt1.nativeElement.style.backgroundColor='rgb(98, 97, 97)';
       this.Opt1.nativeElement.style.color='black';
-this.img3.nativeElement.style.backgroundImage = `url('/assets/images/padlockk.png')`;
+this.img3.nativeElement.style.backgroundImage = `url('assets/images/padlockk.png')`;
     }
   }
 
